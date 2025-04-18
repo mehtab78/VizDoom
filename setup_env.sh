@@ -5,10 +5,8 @@ apt-get update
 
 # Install Python packages
 pip install vizdoom
-pip install vizdoomgym
 pip install gym
+pip install stable-baselines3
 pip install stable-baselines3[extra]
 pip install opencv-python matplotlib
-pip install git+https://github.com/shakenes/vizdoomgym.git
-
 echo "✅ ViZDoom setup for Colab completed!"
